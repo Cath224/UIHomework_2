@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Quadratic equation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styleCalculate.css">
+
+</head>
+
+<body>
+
+    <a class="infoQuadraticEquation" href ="directoryCalculate.html"> DIRECTORY </a>
+
+    <h1>Калькулятор квадратного уравнения</h1>
+
+    <h2>Квадратное уравнение</h2>
+    <br><br>
+      <form name="coefficients" id="coefficients">
+
+      <input type="text" id="a" placeholder="a">
+       x<sup>2</sup> + 
+      <input type="text" id="b" placeholder="b">
+       x + 
+      <input type="text" id="c" placeholder="c">
+       = 0
+       <br><br>
+        ввод должно быть содержать только числовые значения
+        <br><br>
+      <input type="button" onclick="validate();" value="Решить">
+    </form>
+
+    <table id="quadraticEquation">
+      <tr>
+        <th>Общая информация</th><th>Дискриминант</th><th>X1</th><th>X2</th>
+       </tr>
+     <h3>Результат квадратного уравнения</h3>
+    </table>
+
+    <h3>Введите свои данные</h3>
+    <form action="#" name="formIDE"> 
+      <div class="input">
+       <input type="text" class="namePerson" name="namePerson"  maxlength="20" placeholder="Имя">
+       <br> <label for="namePerson">ввод на русском языке</label>
+       
+       <br><br>
+       <input type="text" class="email" name="email" placeholder="email">
+       <br><label  for="email"> Например: bigboss8@naver.com </label>
+
+       <br><br> <select name="gender" size="3"> 
+           <option>man</option>
+           <option>woman</option>
+          <option>other</option>
+          </select>
+     </div>
+     <br>
+   </div>
+    <div class="button">
+       <button class="reset" type="reset">
+         Сброс
+       </button>
+       <button class="button" type="submit">
+         Сохранить
+       </button>
+     </div>
+   </form>
+
+<script src="square.js"></script>
+</body>
+</html>
+

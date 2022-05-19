@@ -1,0 +1,79 @@
+
+body{
+
+    width: 1400px;
+    background: rgba(255, 202, 202,0.2);
+    padding: 0 150px 150px 200px;
+  
+}
+article{
+    max-width: 1400px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #ad8a8f;
+    padding-top:12px ;
+}
+h2,h3{
+    background-color: rgba(228, 184, 184, 0.521);
+    color: rgb(0, 0, 0);
+    padding:10px;
+    border-radius: 3px;
+}
+p.test {
+    border: 2px solid #ad8a8f;
+    padding: 10px;
+    text-align: center;
+   }
+
+   figure img {
+    width:140px;
+}
+.gif {
+display: block;
+margin: auto;
+border: 2px solid #ad8a8f;
+width: 400px;
+}
+
+figcaption {
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+
+  }
+
+  .infoQuadraticEquation{
+    float: right;
+    background-color: rgba(255, 140, 140 ,0.7);
+    color: rgb(0, 0, 0);
+    padding:10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block; 
+}
+.input label {
+    font-size: 14px;
+    color: #ad8a8f;
+    padding-left: 5px;
+
+  }
+
+form{
+    text-align: center;
+    text-align: center;
+}
+
+#quadraticEquation tr:nth-child(odd){
+    background-color: rgba(200, 134, 238, 0.4);
+}
+
+#quadraticEquation tr:nth-of-type(even){
+    background: rgba(255, 199, 199, 0.4);
+}
+#quadraticEquation{
+    margin: auto;
+}
+  
+

@@ -1,0 +1,62 @@
+
+
+a:visited{
+    color: rgb(153, 53, 83);
+}
+ 
+body{
+ 
+    width: 1400px;
+    background: rgba(255, 202, 202,0.2);
+    padding: 0 150px 150px 200px;
+    morgin :0 auto;
+}
+article{
+    max-width: 1400px;
+}
+h1,h3{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #ad8a8f;
+    padding-top:12px ;
+}
+h2{
+    background-color: rgba(248, 148, 148, 0.2);
+    color: rgb(0, 0, 0);
+    padding:10px;
+    border-radius: 3px;
+}
+
+p.test {
+    border: 2px solid #ad8a8f;
+    padding: 10px;
+    text-align: center;
+   }
+
+   figure img {
+    width:140px;
+}
+.gif {
+display: block;
+margin: auto;
+border: 2px solid #ad8a8f;
+width: 400px;
+}
+
+figcaption {
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+
+  }
+
+  .calculateLink{
+    float: right;
+    background-color: rgba(255, 140, 140 ,0.7);
+    color: rgb(0, 0, 0);
+    padding:10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block; 
+}
+
